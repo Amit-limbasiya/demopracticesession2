@@ -15,8 +15,8 @@ namespace demopractiesession2
         static string uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         static string lowercase = "abcdefghijklmnopqrstuvwxyz";
         static string numerics = "0123456789";
-        static string special_chars = "!@#$%&*_?.";
-
+        static string special_chars = "!~`=-+<>;:][)(@#$%&*_?.";
+         
         static Random random = new Random();
 
         public static async Task TruncateTable()
